@@ -8,8 +8,8 @@ const server = app.listen(PORT, () => console.log(`server connected ${PORT}`));
 module.exports = app;
 
 //static middleware
-app.use(express.static(path.join(__dirname, '..', 'node_modules')));
-app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use('/public', express.static(path.join(__dirname, '..', 'public')));
+app.use('/', express.static(path.join(__dirname, '..', 'node_modules')));
 
 //body parsing middleware
 app.use(bodyParser.json());

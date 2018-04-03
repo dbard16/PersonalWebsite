@@ -7,7 +7,7 @@ ReactDOM.render(
   <Router>
     <div>
       <Main />
-    </div>,
+    </div>
   </Router>,
   document.getElementById('app')
 );
