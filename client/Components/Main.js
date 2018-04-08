@@ -13,7 +13,7 @@ export default class Main extends Component {
           <div>
             <Navbar />
           </div>
-          <div id="Components">
+          <div className="components">
             <Switch>
               <Route exact path="/About" component={About} />
               <Route exact path="/Projects" component={Projects} />

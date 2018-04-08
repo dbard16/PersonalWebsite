@@ -1,3 +1,23 @@
-#Components {
+.components {
   padding-top:50px;
+}
+
+.content{
+  text-align:center;
+  padding-top:40px;
+}
+
+.pageHeader{
+  font-family: 'Audiowide';
+  font-size:75px;
+  text-align:center;
+}
+
+.subHeader{
+  font-family: 'Allerta Stencil';
+  color: red;
+}
+p{
+ font-family:'Armata';
+ font-size:25px;
 }
