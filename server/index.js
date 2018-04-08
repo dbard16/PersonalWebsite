@@ -23,7 +23,7 @@ app.use((req, res, next) =>
 );
 
 //send index.html
-app.use('*', (req, res, next) =>
+app.use('/', (req, res, next) =>
   res.sendFile(path.join(__dirname, '..', 'public/index.html'))
 );
 
