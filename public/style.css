@@ -29,9 +29,10 @@ p{
 h2{
   padding:0;
   margin:0;
+  text-decoration: underline;
 }
 #ab1 {
-  background-color:#ffffe6
+  background-color:#ffffe6;
 }
 
 #ab2{
@@ -42,3 +43,34 @@ h2{
   background-color:#ffbf80;
 }
 
+ .navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-family: 'Sriracha';
+  font-size: 25px;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+li{
+  font-family: 'Sriracha';
+  font-size: 25px;
+}
+button {
+  margin-top:30px;
+}

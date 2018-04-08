@@ -30,7 +30,7 @@ export default class Navbar extends Component {
               <span className="icon-bar" />
               <span className="icon-bar" />
             </button>
-            <Link className="navbar-brand" to="/">DW</Link>
+            <Link className="navbar-brand" to="/">Home</Link>
           </div>
           <div className="collapse navbar-collapse">
             <ul className="nav navbar-nav">
