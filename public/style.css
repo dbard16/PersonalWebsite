@@ -3,8 +3,9 @@
 }
 
 .content{
-  text-align:center;
   padding-top:40px;
+  text-align:center;
+
 }
 
 .pageHeader{
@@ -14,10 +15,30 @@
 }
 
 .subHeader{
-  font-family: 'Allerta Stencil';
   color: red;
+  font-family: 'Mogra';
 }
+
 p{
  font-family:'Armata';
  font-size:25px;
+ padding:0;
+ margin:0;
 }
+
+h2{
+  padding:0;
+  margin:0;
+}
+#ab1 {
+  background-color:#ffffe6
+}
+
+#ab2{
+  background-color:#ccffff;
+}
+
+#ab3{
+  background-color:#ffbf80;
+}
+
