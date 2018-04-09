@@ -3,7 +3,8 @@ import Navbar from './Navbar'
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import About from './About';
 import Projects from './Projects';
-import Contact from './Contact'
+import Contact from './Contact';
+import Home from './Home';
 
 export default class Main extends Component {
 
@@ -16,6 +17,7 @@ export default class Main extends Component {
           </div>
           <div className="components">
             <Switch>
+              <Route exact path ="/" component={Home} />
               <Route exact path="/About" component={About} />
               <Route exact path="/Projects" component={Projects} />
               <Route exact path="/Contact" component={Contact} />
