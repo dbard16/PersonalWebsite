@@ -31,20 +31,20 @@ h2{
   margin:0;
   text-decoration: underline;
 }
-#ab1 {
-  background-color:#ffffe6;
-}
 
-#ab2{
-  background-color:#ccffff;
-}
-
-#ab3{
-  background-color:#ffbf80;
-}
 
  .navbar {
   min-height: 80px;
+}
+
+.leftBorder {
+  background:linear-gradient(to right, #e6f7ff , white);
+  height: 1200px;
+}
+
+.rightBorder {
+  background:linear-gradient(to left, #e6f7ff , white);
+  height: 1200px;
 }
 
 .navbar-brand {

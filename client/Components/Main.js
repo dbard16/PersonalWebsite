@@ -12,18 +12,22 @@ export default class Main extends Component {
     return (
       <Router>
           <div>
-          <div>
-            <Navbar />
-          </div>
-          <div className="components">
-            <Switch>
-              <Route exact path ="/" component={Home} />
-              <Route exact path="/About" component={About} />
-              <Route exact path="/Projects" component={Projects} />
-              <Route exact path="/Contact" component={Contact} />
-            </Switch>
+            <div>
+              <Navbar />
+            </div>
+            <div className="container-fluid">
+              <div className="col-xs-2 leftBorder" />
+              <div className="components col-xs-8">
 
-          </div>
+                  <Switch>
+                    <Route exact path ="/" component={Home} />
+                    <Route exact path="/About" component={About} />
+                    <Route exact path="/Projects" component={Projects} />
+                    <Route exact path="/Contact" component={Contact} />
+                  </Switch>
+              </div>
+              <div className="col-xs-2 rightBorder" />
+            </div>
         </div>
       </Router>
             )
