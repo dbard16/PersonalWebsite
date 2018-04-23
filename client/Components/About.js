@@ -15,7 +15,7 @@ export default class About extends Component {
           <div>
           <br />
             <h2 className="subHeader"> A History of Me </h2>
-              <p> I've always had an interest in computers. I still remember playing games on 5 1/4" floppy disks (Damn you Alley Cat, do a better job explaining how you work to 5 year old me) and building my own computer with my brothers' help. Life took me down a non-computer related path at Cornell in sunny Ithaca, followed by living about in Israel. However, I soon realized that my favorite part of my jobs were building macros or automating processes. I made the plunge and signed up for Fullstack Academy in 2017, and here we are today. A young (I can still call myself that until I turn 30 in October), aspiring, software developer looking to make an impact in a new and exciting role. </p>
+              <p> I've always had an interest in computers. I still remember playing games on 5 1/4" floppy disks (Damn you Alley Cat, do a better job explaining how you work to 5 year old me) and building my own computer with my brothers' help. Life took me down a non-computer related path at Cornell in sunny Ithaca, followed by living abroad in Israel. However, I soon realized that my favorite part of my jobs were building macros or automating processes. I made the plunge and signed up for Fullstack Academy in 2017, and here we are today. A young (I can still call myself that until I turn 30 in October), aspiring, software developer looking to make an impact in a new and exciting role. </p>
           </div>
 
           <div>
